@@ -3161,9 +3161,7 @@ client.on('message', async najzx => {
   client.on("guildMemberAdd", member => {
         if(!sWlc[member.guild.id]) sWlc[member.guild.id] = {
       channel: "welcome"
-      const channel = member.guild.channels.find('name', 'welcome');
-      if (!channel) return;
-      channel.send(`***Welcome to Our Server***, ${member}`);
+
       
     }
     const channel = sWlc[member.guild.id].channel
