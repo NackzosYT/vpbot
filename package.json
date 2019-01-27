@@ -50,5 +50,6 @@
     "superagent": "^3.8.3",
     "gif-search": "^2.0.1",
     "zalgolize": "1.2.4"
+          "fs": "0.0.1-security",
   }
 }
